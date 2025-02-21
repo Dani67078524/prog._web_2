@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin: 20px;
+}
+
+.titulo {
+    width: 400px;
+    background-color: rgb(255, 111, 0);
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.contenedor {
+    width: 420px;
+    height: 400px;
+    background-color: rgb(255, 111, 0);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.circulo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.circulo-1 {
+    width: 120px;
+    height: 120px;
+    background-color: red;
+}
+
+.circulo-1-interno {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+}
+.circulo_verde{
+    width: 15px;
+    height: 15px;
+    background-color: rgb(0, 255, 4);
+    border-radius: 360px;
+}
+.circulo-2 {
+    width: 200px;
+    height: 120px;
+    background-color: rgb(139, 138, 234);
+}
+
+.circulo-2-interno {
+    width: 80px;
+    height: 80px;
+    background-color: green;
+}
+
+.circulo-2-ojito {
+    width: 30px;
+    height: 50px;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pupila {
+    width:10px;
+    height: 20px;
+    background-color: black;
+    border-radius: 10px;
+}
